@@ -20,7 +20,7 @@ const fetchUsers = async (user) => {
 
 const showData = () => {
     fetchUsers(inputValue.Value).then((res) => {
-        console.log(res);
+
         nameContainer.innerHTML = `Name: <span class="main__profile-value">${res.data.name}</span>`;
 
         unContainer.innerHTML = `Username: <span class="main__profile-value">${res.data.login}</span>`;
@@ -28,7 +28,6 @@ const showData = () => {
         reposContainer.innerHTML = `Repos: <span class="main__profile-value">${res.data.public_repos}</span>`;
 
         urlContainer.innerHTML = `URL: <span class="main__profile-value">${res.data.html_url}</span>`;
-
     })
 };
 
