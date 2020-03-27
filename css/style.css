@@ -5464,7 +5464,7 @@ body {
 
 a {
   text-decoration: none !important;
-  color: #eeb83b; }
+  color:#6C63FF ; }
   a:hover {
     color: #424242; }
 
@@ -5473,10 +5473,10 @@ a {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 600;
-  background: #eeb83b;
+  background: #6C63FF;
   color: white;
   border-radius: 3px;
-  border: solid 2px #eeb83b;
+  border: solid 2px #6C63FF;
   padding: 1rem 3rem; }
   @media (max-width: 530px) {
     .btn {
@@ -5484,7 +5484,7 @@ a {
   .btn--shallow {
     background: transparent; }
     .btn--shallow:hover {
-      background-color: #eeb83b; }
+      background-color: #6C63FF; }
 
 .main {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg-main.jpg") center center no-repeat;
@@ -5492,17 +5492,17 @@ a {
   padding: 100px 0;
   text-align: center;
   height: 100vh;
-  border-bottom: solid 10px #eeb83b; }
+  border-bottom: solid 10px #6C63FF; }
   .main__title {
     font-size: 7.3rem !important;
     line-height: 1.4;
     letter-spacing: 2px;
     font-weight: medium;
-    color: #eeb83b;
+    color: #6C63FF;
     font-family: "Roboto Slab";
     font-size: 14rem; }
     .main__title strong {
-      color: #eeb83b; }
+      color: #6C63FF; }
     @media (max-width: 1024px) {
       .main__title {
         font-size: 5.3rem !important; } }
@@ -5567,7 +5567,7 @@ a {
     margin-left: auto;
     margin-right: auto; }
   .main__profile-key {
-    color: #eeb83b;
+    color: #6C63FF;
     padding-bottom: 2rem; }
   .main__profile-value {
     color: #fff; }
